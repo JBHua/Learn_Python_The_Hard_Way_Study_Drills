@@ -38,3 +38,11 @@ froome_salbutamuol_case(the_limit_input, the_froome_real_number_input)
 #As Zed mentioned in Common Student Questions, it's possible to call a function within a function.
 #But I failed with this one :( 
 #So, I will try it later, someday in the future.
+
+#Ok, I can do this after learing Ex21. Because I know how to use "return".
+
+def the_second_fun(x, y):
+    print("Ok, we don't trust team sky and froom")
+    return x + y
+
+froome_salbutamuol_case(1000, the_second_fun(1200, 1300))
