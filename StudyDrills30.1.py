@@ -1,4 +1,4 @@
-#LPTHW Study Drill from Ex21
+#LPTHW Study Drill from Ex31
 
 #Define and assign value to three different variables.
 people = 40

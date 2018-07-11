@@ -1,4 +1,4 @@
-#LPTHW Study Drill from Ex21
+#LPTHW Study Drill from Ex26
 #"Your job in this exercise is to correct this file. Use all of your skills to make this file better."
 #If you pay close attention to details, this StudyDrill is not hard to deal with.
 #Sometimes the mistake is just lost of a bracket or quotation mark.
