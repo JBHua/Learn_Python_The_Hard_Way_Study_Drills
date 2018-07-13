@@ -1,12 +1,14 @@
 from sys import exit
 
+#Let's try "try and except"
 def gold_room():
     print("This room is full of gold. how much do you take?")
 
     choice = input("> ")
-    if "0" in choice or "1" in choice:
+
+    try :
         how_much = int(choice)
-    else:
+    except ValueError:
         dead("Man, learn to type a number.")
 
     if how_much < 50:
@@ -23,6 +25,13 @@ def bear_room():
     print("How are you going to move the bear?")
     bear_moved = False
 
+
+#Ok, Ok, I finally figure out how the while loop works.
+#"while True" means that as long as the statement("Ture") is ture, the while loop will 
+#keep running. However, the statement is the boolean value Ture. True is always True.
+#So the while loop will run forever, till the world ends.
+#And also, if we meet a branch that call another function, python will quit the while loop
+#and go to the function.
     while True:
         choice = input ("> ")
 
